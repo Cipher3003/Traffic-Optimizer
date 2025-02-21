@@ -1,7 +1,0 @@
-<net>
-    <junction id="TL1" type="traffic_light" x="0" y="0"/>
-    <junction id="TL2" type="traffic_light" x="500" y="0"/>
-    <junction id="TL3" type="traffic_light" x="1000" y="0"/>
-    <edge id="E1" from="TL1" to="TL2"/>
-    <edge id="E2" from="TL2" to="TL3"/>
-</net>

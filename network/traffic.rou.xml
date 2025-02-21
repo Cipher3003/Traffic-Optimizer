@@ -1,0 +1,4 @@
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" maxSpeed="50"/>
+    <flow id="flow1" type="car" begin="0" end="3600" number="100" from="A" to="B"/>
+</routes>

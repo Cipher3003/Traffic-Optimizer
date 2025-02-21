@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.12"
 resolution-markers = [
     "sys_platform == 'darwin'",
@@ -940,6 +941,8 @@ dependencies = [
     { name = "numpy" },
     { name = "pettingzoo" },
     { name = "stable-baselines3", extra = ["extra"] },
+    { name = "sumolib" },
+    { name = "torch" },
     { name = "traci" },
 ]
 
@@ -949,6 +952,8 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.2.3" },
     { name = "pettingzoo", specifier = ">=1.24.3" },
     { name = "stable-baselines3", extras = ["extra"], specifier = ">=2.5.0" },
+    { name = "sumolib", specifier = ">=1.22.0" },
+    { name = "torch", specifier = ">=2.6.0" },
     { name = "traci", specifier = ">=1.22.0" },
 ]
 
