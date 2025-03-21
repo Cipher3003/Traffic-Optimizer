@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-21 11:48:37 by Eclipse SUMO sumo Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\osm.net.xml.gz"/>
+        <route-files value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\trips.trips.xml"/>
+        <additional-files value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\vehroutes.xml"/>
+        <stop-output value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>
+-->
+
+<stops xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/stopinfo_file.xsd">
+    <stopinfo id="0_bus_Gurgaon_→_Karol_Bagh:0" type="pt_bus" lane="764399428_0" pos="12.52" parking="0" started="18.00" ended="48.00" busStop="7141186255" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="0_bus_Gurgaon_→_Karol_Bagh:0" type="pt_bus" lane="764399428_0" pos="12.52" parking="0" started="49.00" ended="79.00" busStop="7141186254" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="1_bus_BPG:0" type="pt_bus" lane="764399428_0" pos="12.51" parking="0" started="135.00" ended="165.00" busStop="7141186255" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="1_bus_BPG:0" type="pt_bus" lane="764399428_0" pos="12.52" parking="0" started="166.00" ended="196.00" busStop="7141186254" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="0_bus_Gurgaon_→_Karol_Bagh:0" type="pt_bus" lane="1240107867#6_0" pos="14.99" parking="0" started="203.00" ended="233.00" busStop="7141186239" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="2_bus_Gurgaon_→_Anand_Vihar_ISBT:0" type="pt_bus" lane="764399428_0" pos="12.51" parking="0" started="204.00" ended="234.00" busStop="7141186255" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="2_bus_Gurgaon_→_Anand_Vihar_ISBT:0" type="pt_bus" lane="764399428_0" pos="12.52" parking="0" started="235.00" ended="265.00" busStop="7141186254" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="0_bus_Gurgaon_→_Karol_Bagh:0" type="pt_bus" lane="1240107867#11_0" pos="40.14" parking="0" started="260.00" ended="290.00" busStop="7141186238" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="1_bus_BPG:0" type="pt_bus" lane="1240107867#6_0" pos="14.99" parking="0" started="319.00" ended="349.00" busStop="7141186239" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="1_bus_BPG:0" type="pt_bus" lane="1240107867#11_0" pos="40.18" parking="0" started="377.00" ended="407.00" busStop="7141186238" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="2_bus_Gurgaon_→_Anand_Vihar_ISBT:0" type="pt_bus" lane="1240107867#6_0" pos="15.00" parking="0" started="389.00" ended="419.00" busStop="7141186239" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="3_bus_BPG:1" type="pt_bus" lane="648541400#1_0" pos="66.08" parking="0" started="400.00" ended="430.00" busStop="7141186257" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="2_bus_Gurgaon_→_Anand_Vihar_ISBT:0" type="pt_bus" lane="1240107867#11_0" pos="40.16" parking="0" started="447.00" ended="477.00" busStop="7141186238" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="3_bus_BPG:1" type="pt_bus" lane="648541400#6_0" pos="49.74" parking="0" started="457.00" ended="487.00" busStop="7141186258" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="3_bus_BPG:1" type="pt_bus" lane="1289853557#0_0" pos="48.63" parking="0" started="520.00" ended="550.00" busStop="7141186259" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="3_bus_BPG:1" type="pt_bus" lane="764399429#1_0" pos="87.88" parking="0" started="581.00" ended="611.00" busStop="7141186260" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+    <stopinfo id="3_bus_BPG:1" type="pt_bus" lane="764399429#1_0" pos="99.51" parking="0" started="617.00" ended="647.00" busStop="2225581671" initialPersons="0" loadedPersons="0" unloadedPersons="0" initialContainers="0" loadedContainers="0" unloadedContainers="0"/>
+</stops>

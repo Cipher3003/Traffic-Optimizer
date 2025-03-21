@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-21 11:48:39.040374 by osmWebWizard.py v1_22_0+0002-63e50f52594
+<configuration>
+    <net-file value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\osm.net.xml.gz"/>
+    <ptlines-file value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\osm_ptlines.xml"/>
+    <ptstops-file value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\osm_stops.add.xml"/>
+    <output-file value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\osm_pt.rou.xml"/>
+    <stopinfos-file value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\stopinfos.xml"/>
+    <routes-file value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\vehroutes.xml"/>
+    <trips-file value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\trips.trips.xml"/>
+    <min-stops value="0"/>
+    <extend-to-fringe value="True"/>
+    <random-begin value="True"/>
+    <seed value="42"/>
+    <ignore-errors value="True"/>
+    <vtype-prefix value="pt_"/>
+    <verbose value="True"/>
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="subway"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="cable_car" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_Gurgaon_→_Karol_Bagh:0" edges="764399428 764388845#0 764388845#2 764388845#3 28319446#19 28319446#20 764399426 23240459#0 23240459#1 1136383487 995275112#0 995275112#1-AddedOnRampEdge 995275112#1 1148187196 1240107867#1 1240107867#2 1240107867#3 1240107867#4 1240107867#5 1240107867#6 1240107867#8 1240107867#9 1240107867#10 1240107867#11 1240107867#13 151980086" >
+        <stop busStop="7141186255" duration="20" until="33.0"/> <!-- Gurgaon -->
+        <stop busStop="7141186254" duration="20" until="64.0"/> <!-- Gurgaon Bus Stand -->
+        <stop busStop="7141186239" duration="20" until="218.0"/> <!-- Patel Nagar -->
+        <stop busStop="7141186238" duration="20" until="275.0"/> <!-- Government Girls College, Mehrauli-Gurgaon Road -->
+    </route>
+    <route id="pt_bus_BPG:0" edges="764399428 764388845#0 764388845#2 764388845#3 28319446#19 28319446#20 764399426 23240459#0 23240459#1 1136383487 995275112#0 995275112#1-AddedOnRampEdge 995275112#1 1148187196 1240107867#1 1240107867#2 1240107867#3 1240107867#4 1240107867#5 1240107867#6 1240107867#8 1240107867#9 1240107867#10 1240107867#11 1240107867#13 151980086" >
+        <stop busStop="7141186255" duration="20" until="32.0"/> <!-- Gurgaon -->
+        <stop busStop="7141186254" duration="20" until="63.0"/> <!-- Gurgaon Bus Stand -->
+        <stop busStop="7141186239" duration="20" until="216.0"/> <!-- Patel Nagar -->
+        <stop busStop="7141186238" duration="20" until="274.0"/> <!-- Government Girls College, Mehrauli-Gurgaon Road -->
+    </route>
+    <route id="pt_bus_Gurgaon_→_Anand_Vihar_ISBT:0" edges="764399428 764388845#0 764388845#2 764388845#3 28319446#19 28319446#20 764399426 23240459#0 23240459#1 1136383487 995275112#0 995275112#1-AddedOnRampEdge 995275112#1 1148187196 1240107867#1 1240107867#2 1240107867#3 1240107867#4 1240107867#5 1240107867#6 1240107867#8 1240107867#9 1240107867#10 1240107867#11 1240107867#13 151980086" >
+        <stop busStop="7141186255" duration="20" until="33.0"/> <!-- Gurgaon -->
+        <stop busStop="7141186254" duration="20" until="64.0"/> <!-- Gurgaon Bus Stand -->
+        <stop busStop="7141186239" duration="20" until="218.0"/> <!-- Patel Nagar -->
+        <stop busStop="7141186238" duration="20" until="276.0"/> <!-- Government Girls College, Mehrauli-Gurgaon Road -->
+    </route>
+    <route id="pt_bus_BPG:1" edges="648541400#0 648541400#1 648541400#3 648541400#4 648541400#5 648541400#6 648541400#8 648541400#9 1289853557#0 1289853557#1 764399431 764399429#0 764399429#1" >
+        <stop busStop="7141186257" duration="20" until="47.0"/> <!-- Government Girls College, Mehrauli-Gurgaon Road -->
+        <stop busStop="7141186258" duration="20" until="104.0"/> <!-- Patel Nagar -->
+        <stop busStop="7141186259" duration="20" until="167.0"/> <!-- None -->
+        <stop busStop="7141186260" duration="20" until="228.0"/> <!-- Gurgaon Bus Stand -->
+        <stop busStop="2225581671" duration="20" until="264.0"/> <!-- Gurgaon -->
+    </route>
+    <flow id="pt_bus_Gurgaon_→_Karol_Bagh:0" type="pt_bus" route="pt_bus_Gurgaon_→_Karol_Bagh:0" begin="15.0" end="3615.0" period="600" line="Gurgaon_→_Karol_Bagh:0" >
+        <param key="name" value="Gurgaon → Karol Bagh"/>
+        <param key="completeness" value="0.21"/>
+    </flow>
+    <flow id="pt_bus_BPG:0" type="pt_bus" route="pt_bus_BPG:0" begin="133.0" end="3733.0" period="600" line="BPG:0" >
+        <param key="name" value="BPG: Gurgaon -&gt; Badarpur"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_Gurgaon_→_Anand_Vihar_ISBT:0" type="pt_bus" route="pt_bus_Gurgaon_→_Anand_Vihar_ISBT:0" begin="201.0" end="3801.0" period="600" line="Gurgaon_→_Anand_Vihar_ISBT:0" >
+        <param key="name" value="Gurgaon → Anand Vihar ISBT"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_BPG:1" type="pt_bus" route="pt_bus_BPG:1" begin="383.0" end="3983.0" period="600" line="BPG:1" >
+        <param key="name" value="BPG: Badarpur -&gt; Gurgaon"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+</routes>

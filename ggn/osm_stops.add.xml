@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-21 11:48:31 by Eclipse SUMO netconvert Version 1.22.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}\data\typemap\osmNetconvert.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="2225581671" name="Gurgaon" lane="764399429#1_0" startPos="84.51" endPos="99.51" friendlyPos="true" lines="BPG"/>
+    <busStop id="7141186238" name="Government Girls College, Mehrauli-Gurgaon Road" lane="1240107867#11_0" startPos="25.18" endPos="40.18" friendlyPos="true" lines="Gurgaon → Karol Bagh BPG Gurgaon → Anand Vihar ISBT"/>
+    <busStop id="7141186239" name="Patel Nagar" lane="1240107867#6_0" startPos="0.00" endPos="15.00" friendlyPos="true" lines="Gurgaon → Karol Bagh BPG Gurgaon → Anand Vihar ISBT"/>
+    <busStop id="7141186254" name="Gurgaon Bus Stand" lane="764399428_0" startPos="0.00" endPos="12.52" friendlyPos="true" lines="Gurgaon → Karol Bagh BPG Gurgaon → Anand Vihar ISBT"/>
+    <busStop id="7141186255" name="Gurgaon" lane="764399428_0" startPos="0.00" endPos="12.52" friendlyPos="true" lines="Gurgaon → Karol Bagh BPG Gurgaon → Anand Vihar ISBT"/>
+    <busStop id="7141186257" name="Government Girls College, Mehrauli-Gurgaon Road" lane="648541400#1_0" startPos="51.10" endPos="66.10" friendlyPos="true" lines="BPG"/>
+    <busStop id="7141186258" name="Patel Nagar" lane="648541400#6_0" startPos="34.76" endPos="49.76" friendlyPos="true" lines="BPG"/>
+    <busStop id="7141186259" lane="1289853557#0_0" startPos="33.65" endPos="48.65" friendlyPos="true" lines="BPG"/>
+    <busStop id="7141186260" name="Gurgaon Bus Stand" lane="764399429#1_0" startPos="72.88" endPos="87.88" friendlyPos="true" lines="BPG"/>
+</additional>

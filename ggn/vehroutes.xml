@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-21 11:48:37 by Eclipse SUMO sumo Version 1.22.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\osm.net.xml.gz"/>
+        <route-files value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\trips.trips.xml"/>
+        <additional-files value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\osm_stops.add.xml"/>
+    </input>
+
+    <output>
+        <vehroute-output value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\vehroutes.xml"/>
+        <stop-output value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\stopinfos.xml"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+    </time>
+
+    <processing>
+        <ignore-route-errors value="true"/>
+    </processing>
+
+    <routing>
+        <device.rerouting.adaptation-interval value="0"/>
+    </routing>
+
+    <report>
+        <aggregate-warnings value="5"/>
+        <error-log value="C:\Users\sai\OneDrive\Documents\TLO\2025-03-21-11-48-15\trips.trips.xml.errorlog"/>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0_bus_Gurgaon_→_Karol_Bagh:0" type="pt_bus" depart="15.00" departLane="0" arrival="306.00">
+        <route edges="764399428 764388845#0 764388845#2 764388845#3 28319446#19 28319446#20 764399426 23240459#0 23240459#1 1136383487 995275112#0 995275112#1-AddedOnRampEdge 995275112#1 1148187196 1240107867#1 1240107867#2 1240107867#3 1240107867#4 1240107867#5 1240107867#6 1240107867#8 1240107867#9 1240107867#10 1240107867#11 1240107867#13 151980086"/>
+        <stop busStop="7141186255" duration="30.00"/>
+        <stop busStop="7141186254" duration="30.00"/>
+        <stop busStop="7141186239" duration="30.00"/>
+        <stop busStop="7141186238" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="1_bus_BPG:0" type="pt_bus" depart="133.00" departLane="0" arrival="422.00">
+        <route edges="764399428 764388845#0 764388845#2 764388845#3 28319446#19 28319446#20 764399426 23240459#0 23240459#1 1136383487 995275112#0 995275112#1-AddedOnRampEdge 995275112#1 1148187196 1240107867#1 1240107867#2 1240107867#3 1240107867#4 1240107867#5 1240107867#6 1240107867#8 1240107867#9 1240107867#10 1240107867#11 1240107867#13 151980086"/>
+        <stop busStop="7141186255" duration="30.00"/>
+        <stop busStop="7141186254" duration="30.00"/>
+        <stop busStop="7141186239" duration="30.00"/>
+        <stop busStop="7141186238" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="2_bus_Gurgaon_→_Anand_Vihar_ISBT:0" type="pt_bus" depart="201.00" departLane="0" arrival="491.00">
+        <route edges="764399428 764388845#0 764388845#2 764388845#3 28319446#19 28319446#20 764399426 23240459#0 23240459#1 1136383487 995275112#0 995275112#1-AddedOnRampEdge 995275112#1 1148187196 1240107867#1 1240107867#2 1240107867#3 1240107867#4 1240107867#5 1240107867#6 1240107867#8 1240107867#9 1240107867#10 1240107867#11 1240107867#13 151980086"/>
+        <stop busStop="7141186255" duration="30.00"/>
+        <stop busStop="7141186254" duration="30.00"/>
+        <stop busStop="7141186239" duration="30.00"/>
+        <stop busStop="7141186238" duration="30.00"/>
+    </vehicle>
+
+    <vehicle id="3_bus_BPG:1" type="pt_bus" depart="383.00" departLane="0" arrival="647.00">
+        <route edges="648541400#0 648541400#1 648541400#3 648541400#4 648541400#5 648541400#6 648541400#8 648541400#9 1289853557#0 1289853557#1 764399431 764399429#0 764399429#1"/>
+        <stop busStop="7141186257" duration="30.00"/>
+        <stop busStop="7141186258" duration="30.00"/>
+        <stop busStop="7141186259" duration="30.00"/>
+        <stop busStop="7141186260" duration="30.00"/>
+        <stop busStop="2225581671" duration="30.00"/>
+    </vehicle>
+
+</routes>

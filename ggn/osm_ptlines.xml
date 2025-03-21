@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-03-21 11:48:31 by Eclipse SUMO netconvert Version 1.22.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}\data\typemap\osmNetconvert.typ.xml,${SUMO_HOME}\data\typemap\osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj.utm value="true"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+</netconvertConfiguration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="14105563" name="Gurgaon → Karol Bagh" line="Gurgaon → Karol Bagh" type="bus" vClass="bus" completeness="0.21" missingAfter="15">
+        <route edges="764399428 28319446#20 764399426 1016538667 1148187196 1240107867#1 1240107867#2 1240107867#3 1240107867#4 1240107867#5 1240107867#6 1240107867#8 1240107867#9 1240107867#10 1240107867#11 1240107867#13 151980086"/>
+        <busStop id="7141186255" name="Gurgaon"/>
+        <busStop id="7141186254" name="Gurgaon Bus Stand"/>
+        <busStop id="7141186239" name="Patel Nagar"/>
+        <busStop id="7141186238" name="Government Girls College, Mehrauli-Gurgaon Road"/>
+    </ptLine>
+    <ptLine id="8014350" name="BPG: Gurgaon -&gt; Badarpur" line="BPG" type="bus" vClass="bus" completeness="0.08" missingAfter="48">
+        <route edges="764399428 28319446#20 764399426 1016538667 1148187196 1240107867#1 1240107867#2 1240107867#3 1240107867#4 1240107867#5 1240107867#6 1240107867#8 1240107867#9 1240107867#10 1240107867#11 1240107867#13 151980086"/>
+        <busStop id="7141186255" name="Gurgaon"/>
+        <busStop id="7141186254" name="Gurgaon Bus Stand"/>
+        <busStop id="7141186239" name="Patel Nagar"/>
+        <busStop id="7141186238" name="Government Girls College, Mehrauli-Gurgaon Road"/>
+    </ptLine>
+    <ptLine id="8229055" name="Gurgaon → Anand Vihar ISBT" line="Gurgaon → Anand Vihar ISBT" type="bus" vClass="bus" completeness="0.09" missingAfter="43">
+        <route edges="764399428 28319446#20 764399426 1016538667 1148187196 1240107867#1 1240107867#2 1240107867#3 1240107867#4 1240107867#5 1240107867#6 1240107867#8 1240107867#9 1240107867#10 1240107867#11 1240107867#13 151980086"/>
+        <busStop id="7141186255" name="Gurgaon"/>
+        <busStop id="7141186254" name="Gurgaon Bus Stand"/>
+        <busStop id="7141186239" name="Patel Nagar"/>
+        <busStop id="7141186238" name="Government Girls College, Mehrauli-Gurgaon Road"/>
+    </ptLine>
+    <ptLine id="8321465" name="BPG: Badarpur -&gt; Gurgaon" line="BPG" type="bus" vClass="bus" completeness="0.10" missingBefore="47">
+        <route edges="648541400#0 648541400#1 648541400#3 648541400#4 648541400#5 648541400#6 648541400#8 648541400#9 1289853557#0 1289853557#1 764399431 764399429#0 764399429#1"/>
+        <busStop id="7141186257" name="Government Girls College, Mehrauli-Gurgaon Road"/>
+        <busStop id="7141186258" name="Patel Nagar"/>
+        <busStop id="7141186259" name=""/>
+        <busStop id="7141186260" name="Gurgaon Bus Stand"/>
+        <busStop id="2225581671" name="Gurgaon"/>
+    </ptLine>
+</ptLines>
