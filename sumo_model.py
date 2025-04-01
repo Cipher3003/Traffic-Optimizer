@@ -3,6 +3,7 @@ import sumolib
 import os
 import time
 from collections import defaultdict
+from model_architecture import TrafficLightOptimizer
 
 class SUMOTrafficLightController:
     def __init__(self, net_file):

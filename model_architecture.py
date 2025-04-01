@@ -107,4 +107,3 @@ class TrafficLightOptimizer:
 
     def save(self, name):
         self.model.save_weights(name)
-

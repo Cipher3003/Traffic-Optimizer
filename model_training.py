@@ -1,4 +1,5 @@
 from sumo_model import SUMOTrafficLightController
+from model_architecture import TrafficLightOptimizer
 
 if __name__ == "__main__":
     # Path to your SUMO configuration file
